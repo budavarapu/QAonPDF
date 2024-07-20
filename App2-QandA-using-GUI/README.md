@@ -13,14 +13,9 @@ This AI agent extracts text from a PDF document, answers questions based on the 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pdf-question-answering-agent.git
-   cd pdf-question-answering-agent
-
-pip install -r requirements.txt
-
-export OPENAI_API_KEY='your_openai_api_key'
-export SLACK_TOKEN='your_slack_token'
-
-python main.py
-
-Opens a Tkinter based GUI, Upload a PDF, Post Queries, Provide Slack Channel and Execute
+   git clone https://github.com/budavarapu/QAUsingPDF/tree/main/App2-QandA-using-GUI.git
+   cd App2-QandA-using-GUI
+2. pip install -r requirements.txt
+3. export OPENAI_API_KEY='your_openai_api_key', export SLACK_TOKEN='your_slack_token'
+4. python main.py
+5. Opens a Tkinter based GUI, Upload a PDF, Post Queries, Provide Slack Channel and Execute
