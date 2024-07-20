@@ -1,19 +1,45 @@
 # QAonPDF
-Question and Answers on a PDF using OpenAI 
 
-App1-QandA-using-curl
-  Interact with app using POST/GET
-App1-QandA-using-GUI
-  Perform Q and A using Tkinter based GUI
+## Overview
+QAonPDF is an application designed to perform question and answer (Q&A) tasks on PDF documents using OpenAI's GPT-3.5-Turbo. The application allows users to extract text from a PDF, answer questions based on the extracted content, and post the results to a specified Slack channel.
 
-#Approach
-Input Handling:
-	Users upload a PDF and provide questions.
-	Users specify the Slack channel for posting answers.
-Text Extraction:
-	Extract text from the uploaded PDF using PyMuPDF.
-Question Answering:
-	Use OpenAI GPT-4 to answer the provided questions based on the extracted text.
-Slack Integration:
-	Post the answers to the specified Slack channel using the Slack API.
-	
+## Features
+
+### App1-QandA-using-curl
+- **Interact with App Using POST/GET**: This version of the app allows you to interact with the application via HTTP POST and GET requests. You can upload a PDF, provide questions, and specify a Slack channel to receive the answers.
+
+### App1-QandA-using-GUI
+- **Perform Q&A Using Tkinter-Based GUI**: This version of the app provides a graphical user interface (GUI) using Tkinter. Users can upload a PDF, enter questions, and view answers in a user-friendly interface.
+
+## Approach
+
+### Input Handling
+- **PDF Upload**: Users upload a PDF document.
+- **Question Submission**: Users provide a list of questions to be answered.
+- **Slack Channel Specification**: Users specify the Slack channel where the answers will be posted.
+
+### Text Extraction
+- **PDF Parsing**: Text is extracted from the uploaded PDF using the PyMuPDF library.
+
+### Question Answering
+- **GPT-4 Integration**: OpenAI's GPT-4 model is used to generate answers based on the extracted text and user-provided questions.
+
+### Slack Integration
+- **Posting Answers**: The answers are posted to the specified Slack channel using the Slack API.
+
+## Installation
+
+### Requirements
+- Python 3.8 or higher
+- Required libraries:
+  - flask
+  - PyMuPDF
+  - openai
+  - slack_sdk
+
+### Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/budavarapu/QAonPDF.git
+   cd QAonPDF
