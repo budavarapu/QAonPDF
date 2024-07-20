@@ -1,4 +1,4 @@
-# QAUsingPDF
+# QAonPDF
 Question and Answers on a PDF using OpenAI 
 
 App1-QandA-using-curl
