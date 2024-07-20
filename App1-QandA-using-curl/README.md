@@ -13,7 +13,7 @@ This AI agent extracts text from a PDF document, answers questions based on the 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/budavarapu/QAUsingPDF/tree/main/App1-QandA-using-curl.git
+   git clone https://github.com/budavarapu/QAUsingPDF.git
    cd App1-QandA-using-curl
 
    pip install -r requirements.txt
