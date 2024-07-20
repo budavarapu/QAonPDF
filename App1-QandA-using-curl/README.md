@@ -13,14 +13,13 @@ This AI agent extracts text from a PDF document, answers questions based on the 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pdf-question-answering-agent.git
-   cd pdf-question-answering-agent
+   git clone https://github.com/budavarapu/QAUsingPDF/tree/main/App1-QandA-using-curl.git
+   cd App1-QandA-using-curl
 
    pip install -r requirements.txt
-
    export OPENAI_API_KEY='your_openai_api_key'
    export SLACK_TOKEN='your_slack_token'
-
+   
 2. Run the App
    flask run
 
