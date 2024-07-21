@@ -1,4 +1,0 @@
-flask
-PyMuPDF
-openai
-slack_sdk
