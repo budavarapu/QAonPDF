@@ -22,7 +22,8 @@ QAonPDF is an application designed to perform question and answer (Q&A) tasks on
 - **PDF Parsing**: Text is extracted from the uploaded PDF using the PyMuPDF library.
 
 ### Question Answering
-- **GPT-4 Integration**: OpenAI's GPT-4 model is used to generate answers based on the extracted text and user-provided questions.
+- **Split Text to Chunks and Database creation using Embeddings**: Text is converted to chunks. Embeddings were integrated along with Database store the queries and implement caching technique to serve the queries efficiently.
+- **GPT-3.5-Turbo Integration**: OpenAI's GPT-3.5-Turbo model is used to generate answers based on the extracted text and user-provided questions.
 
 ### Slack Integration
 - **Posting Answers**: The answers are posted to the specified Slack channel using the Slack API.
@@ -36,6 +37,8 @@ QAonPDF is an application designed to perform question and answer (Q&A) tasks on
   - PyMuPDF
   - openai
   - slack_sdk
+  - scikit-learn
+  - numpy
 
 ### Setup
 
