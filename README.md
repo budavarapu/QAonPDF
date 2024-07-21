@@ -6,10 +6,10 @@ QAonPDF is an application designed to perform question and answer (Q&A) tasks on
 ## Features
 
 ### App1-QandA-using-curl
-- **Interact with App Using POST/GET**: This version of the app allows you to interact with the application via HTTP POST and GET requests. You can upload a PDF, provide questions, and specify a Slack channel to receive the answers.
+- **Interact with App Using POST/GET**: This version of the app allows you to interact with the application via HTTP POST and GET requests. Users must provide path to PDF along with questions, and specify a Slack channel to post the questions and answers.
 
 ### App1-QandA-using-GUI
-- **Perform Q&A Using Tkinter-Based GUI**: This version of the app provides a graphical user interface (GUI) using Tkinter. Users can upload a PDF, enter questions, and view answers in a user-friendly interface.
+- **Perform Q&A Using Tkinter-Based GUI**: This version of the app provides a graphical user interface (GUI) using Tkinter. Users can upload a PDF, enter questions, and view answers on a slack channel.
 
 ## Approach
 
