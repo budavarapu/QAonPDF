@@ -1,0 +1,6 @@
+flask
+PyMuPDF
+openai
+slack_sdk
+scikit-learn
+numpy
