@@ -3,6 +3,30 @@
 ## Overview
 QAonPDF is an application designed to perform question and answer (Q&A) tasks on PDF documents using OpenAI's GPT-3.5-Turbo. The application allows users to extract text from a PDF, answer questions based on the extracted content, and post the results to a specified Slack channel.
 
+Contribution to the project is as follows 
+### **Project Concept and Strategy**
+
+- **Idea Formation**: Conceptualized and initiated the project with a mission to conduct QA on PDFs without using traditional frameworks.
+- **Expectation Management**: Defined clear objectives and outcomes to guide the project's development and ensure alignment with desired goals.
+
+### **AI Collaboration**
+- **Prompt Design**: Developed effective prompts for ChatGPT to generate code and functions that meet the project's requirements.
+- **Optimization**: Identified areas for improvement, such as:
+  - Implementing caching mechanisms to store answers and reduce redundant computations.
+  - Minimizing computational costs through efficient processing strategies.
+
+### **Component Development and Validation**
+- **Task Decoupling**: Decomposed the project into distinct, manageable tasks to simplify development and troubleshooting.
+- **Functionality Testing**: Rigorously tested each section of the pipeline independently to ensure reliability and seamless integration.
+- **Document Handling**: Implemented batch processing for documents to enhance performance with large files.
+
+### **Integration and Communication**
+- **Slack API Integration**: Validated the integration of Slack API to facilitate automatic notifications and updates through Slack, enhancing communication and workflow.
+  
+### **System Testing and Deployment**
+
+- **End-to-End Verification**: Conducted comprehensive testing to ensure the entire solution operates smoothly, whether accessed via curl commands or as part of Slack interactions.
+
 ## Features
 
 ### App1-QandA-using-curl
